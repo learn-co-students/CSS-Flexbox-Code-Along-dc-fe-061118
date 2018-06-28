@@ -14,10 +14,32 @@ main {
   background-color: white;
   width: 100%;
   height: 100%;
+   overflow: scroll;
+   display: flex; 
+   flex-direction: column;
+   justify-content: space-evenly;
+   
+   
 }
 
 footer {
   background-color: red;
   height: 100%;
   width: 100%;
+}
+
+
+.flex-container {
+  display: flex;
+  Width: 100vw;
+  height: 100vh;
+  flex-wrap: column;
+}
+
+.item {
+  height: 100px;
+  width: 100px;
+  margin: 5px;
+  background-color: green;
+
 }
